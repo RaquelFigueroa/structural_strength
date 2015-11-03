@@ -84,7 +84,7 @@ double variance(vector<int> &v)
 double standardDev(vector<int> &v)
 {
     double result(0);
-    result = sqrt(variance(vector<int> &v));
+    result = sqrt(variance(v));
     return result;
 }//End standardDev function
 
